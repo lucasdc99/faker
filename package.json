@@ -12,6 +12,7 @@
   "author": "Lucas De Curtis",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.0.2"
+    "@faker-js/faker": "^8.0.2",
+    "typescript": "^5.1.3"
   }
 }
