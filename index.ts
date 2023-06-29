@@ -102,3 +102,11 @@ export function generateRandomAlphanumeric(length = 10): string {
 export function generateParagraph(length = 10): string {
   return faker.lorem.sentence(length);
 }
+
+export function generateFullAddress(): string {
+  return `${faker.location.streetAddress()}, ${faker.location.zipCode()} ${faker.location.city()}`;
+}
+
+export function generateCompanyName(): string {
+  return faker.company.name();
+}
