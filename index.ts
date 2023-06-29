@@ -110,3 +110,11 @@ export function generateFullAddress(): string {
 export function generateCompanyName(): string {
   return faker.company.name();
 }
+
+export function generateProductName(): string {
+  return faker.commerce.productName();
+}
+
+export function generateJob(): string {
+  return faker.person.jobTitle();
+}
